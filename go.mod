@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/iooikaak/frame v0.0.0-20240222150429-22cd4d3985bc
-	github.com/iooikaak/pb v0.0.0-20240222150701-9f1a93a2268e
+	github.com/iooikaak/pb v0.0.0-20240223091925-c2ee3806c097
 	github.com/olivere/elastic/v7 v7.0.31
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/prometheus/client_golang v1.14.0
@@ -12,6 +12,7 @@ require (
 )
 
 require (
+	github.com/BurntSushi/toml v1.1.0 // indirect
 	github.com/antonfisher/nested-logrus-formatter v1.3.1 // indirect
 	github.com/apache/rocketmq-client-go/v2 v2.1.0 // indirect
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
@@ -47,6 +48,7 @@ require (
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jonboulle/clockwork v0.3.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
+	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-colorable v0.1.8 // indirect
@@ -61,6 +63,7 @@ require (
 	github.com/philchia/agollo/v4 v4.1.3 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/prometheus/client_model v0.3.0 // indirect
+	github.com/prometheus/common v0.39.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/soheilhy/cmux v0.1.5 // indirect
@@ -71,6 +74,7 @@ require (
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
+	go.uber.org/zap v1.21.0 // indirect
 	golang.org/x/net v0.21.0 // indirect
 	golang.org/x/sys v0.17.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
@@ -81,13 +85,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 	stathat.com/c/consistent v1.0.0 // indirect
-)
-
-require (
-	github.com/BurntSushi/toml v1.1.0 // indirect
-	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/prometheus/common v0.39.0 // indirect
-	go.uber.org/zap v1.21.0 // indirect
 )
 
 replace (
